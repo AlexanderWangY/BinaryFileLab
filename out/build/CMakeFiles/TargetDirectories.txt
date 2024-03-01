@@ -1,0 +1,3 @@
+/home/alexander/Projects/CPP_LAB/out/build/CMakeFiles/rebuild_cache.dir
+/home/alexander/Projects/CPP_LAB/out/build/CMakeFiles/edit_cache.dir
+/home/alexander/Projects/CPP_LAB/out/build/CMakeFiles/binary.dir
