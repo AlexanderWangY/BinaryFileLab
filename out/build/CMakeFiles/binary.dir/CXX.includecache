@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/alexander/Projects/CPP_LAB/main.cpp
+/home/alexander/Projects/CPP_LAB/ShipReader.cpp
+ShipReader.h
+/home/alexander/Projects/CPP_LAB/ShipReader.h
 fstream
 -
 ios
@@ -16,5 +18,17 @@ iostream
 ostream
 -
 string
+-
+
+/home/alexander/Projects/CPP_LAB/ShipReader.h
+fstream
+-
+iostream
+-
+map
+-
+string
+-
+vector
 -
 

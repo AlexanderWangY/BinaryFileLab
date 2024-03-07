@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/binary.dir/ShipReader.cpp.o"
   "CMakeFiles/binary.dir/main.cpp.o"
   "binary"
   "binary.pdb"

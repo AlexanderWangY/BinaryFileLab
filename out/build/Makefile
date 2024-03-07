@@ -123,6 +123,33 @@ binary/fast:
 	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/build
 .PHONY : binary/fast
 
+ShipReader.o: ShipReader.cpp.o
+
+.PHONY : ShipReader.o
+
+# target to build an object file
+ShipReader.cpp.o:
+	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/ShipReader.cpp.o
+.PHONY : ShipReader.cpp.o
+
+ShipReader.i: ShipReader.cpp.i
+
+.PHONY : ShipReader.i
+
+# target to preprocess a source file
+ShipReader.cpp.i:
+	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/ShipReader.cpp.i
+.PHONY : ShipReader.cpp.i
+
+ShipReader.s: ShipReader.cpp.s
+
+.PHONY : ShipReader.s
+
+# target to generate assembly for a file
+ShipReader.cpp.s:
+	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/ShipReader.cpp.s
+.PHONY : ShipReader.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... binary"
+	@echo "... ShipReader.o"
+	@echo "... ShipReader.i"
+	@echo "... ShipReader.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

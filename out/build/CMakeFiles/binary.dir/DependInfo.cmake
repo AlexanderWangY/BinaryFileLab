@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/alexander/Projects/CPP_LAB/ShipReader.cpp" "/home/alexander/Projects/CPP_LAB/out/build/CMakeFiles/binary.dir/ShipReader.cpp.o"
   "/home/alexander/Projects/CPP_LAB/main.cpp" "/home/alexander/Projects/CPP_LAB/out/build/CMakeFiles/binary.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

@@ -74,12 +74,12 @@ clean: CMakeFiles/binary.dir/clean
 CMakeFiles/binary.dir/all:
 	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/depend
 	$(MAKE) -f CMakeFiles/binary.dir/build.make CMakeFiles/binary.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alexander/Projects/CPP_LAB/out/build/CMakeFiles --progress-num=1,2 "Built target binary"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alexander/Projects/CPP_LAB/out/build/CMakeFiles --progress-num=1,2,3 "Built target binary"
 .PHONY : CMakeFiles/binary.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/binary.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alexander/Projects/CPP_LAB/out/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alexander/Projects/CPP_LAB/out/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/binary.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/alexander/Projects/CPP_LAB/out/build/CMakeFiles 0
 .PHONY : CMakeFiles/binary.dir/rule

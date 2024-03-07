@@ -1,21 +1,42 @@
 #pragma once
 #include <fstream>
+#include <iostream>
 #include <map>
 #include <string>
 #include <vector>
+struct Weapon {
+  std::string name;
+  int powerRating;
+  float powerConsump;
+};
+
+struct Ship {
+  std::string name;
+  std::string shipClass;
+  short int length;
+  int shieldCapacity;
+  double warpSpeed;
+  std::vector<Weapon> weapons;
+};
 
 class ShipReader {
 private:
   std::ifstream file;
-  unsigned int numOfShips;
-  std::vector<std::string> shipNames;
-  std::vector<std::string> shipClasses;
-  std::vector<int> shipLength;
-  std::vector<int> shipShieldCapacity;
-  std::vector<double> shipWarpSpeed;
-  std::map<std::string, std::pair<int, float>> shipWeapons;
+  int numOfShips;
+  std::vector<Ship> ships;
 
 public:
   ShipReader();
   ShipReader(std::string _file);
+  ~ShipReader();
+
+  void loadFile(std::string _file);
+  void loadShips();
+  void loadWeapons(Ship &newShip);
+  void displayShips();
+  void displaySingleShip(Ship ship);
+  void displayStrongest();
+  void displayStrongestWeapon();
+  void displayWeakest();
+  void displayUnarmed();
 };
